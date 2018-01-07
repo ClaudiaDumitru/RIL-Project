@@ -35,12 +35,12 @@ if __name__=='__main__':
     root.contact = Contact()
 
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    conf = {'global': {
+    conf = {
         '/images': {'tools.staticdir.on': True, 'tools.staticdir.dir': os.path.join(current_dir, 'images')},
         '/css': {'tools.staticdir.on': True, 'tools.staticdir.dir': os.path.join(current_dir, 'css')},
         '/fonts': {'tools.staticdir.on': True, 'tools.staticdir.dir': os.path.join(current_dir, 'fonts')},
         '/js': {'tools.staticdir.on': True, 'tools.staticdir.dir': os.path.join(current_dir, 'js')}
-        }}
+        }
     cherrypy.config.update(conf)
 
     cherrypy.quickstart(root, '/')
