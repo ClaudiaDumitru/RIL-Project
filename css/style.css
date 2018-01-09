@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Open Sans", Arial, serif;
   line-height: 1.8;
@@ -20,14 +15,14 @@ body {
 }
 
 a {
-  color: #a980cd;
+  color: #92250a;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: underline !important;
-  color: #a980cd !important;
+  color: #92250a !important;
 }
 a:focus, a:active {
   outline: none;
@@ -101,11 +96,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   margin: 0;
 }
+#fh5co-header .fh5co-logo {
+  position: relative;
+  top: -25px;
+}
 #fh5co-header .fh5co-navbar-brand .fh5co-logo {
   width: 52px;
-  height: 30px;
+  height: 20px;
   padding: 0;
-  font-size: 20px;
+  font-size: 35px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -123,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 #fh5co-header .nav li {
-  font-size: 15px;
+  font-size: 30px;
   display: inline-block;
   margin-left: 50px;
   text-transform: uppercase;
@@ -158,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-header .nav li.active a {
-  color: #a980cd;
+  color: #92250a;
   background: transparent;
   position: relative;
 }
@@ -171,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
   top: -20px;
-  background: #a980cd;
+  background: #92250a;
   content: '';
   left: 50%;
   margin-left: -4px;
@@ -189,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 480px) {
   #fh5co-header .nav li.active a {
     border-bottom: 2px solid transparent;
-    color: #a980cd;
+    color: #92250a;
   }
 }
 @media screen and (max-width: 992px) {
@@ -549,7 +548,7 @@ ba
 .fh5co-inner .holder-section h3 {
   font-size: 20px;
   text-transform: uppercase;
-  color: #a980cd;
+  color: #92250a;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -657,7 +656,7 @@ ba
 }
 .contact-info li a {
   font-weight: 400 !important;
-  color: #a980cd;
+  color: #92250a;
 }
 @media screen and (max-width: 768px) {
   .contact-info {
@@ -729,7 +728,7 @@ input[type="text"] {
   letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
-  color: #a980cd;
+  color: #92250a;
 }
 
 .btn {
@@ -746,14 +745,14 @@ input[type="text"] {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #a980cd;
+  background: #92250a;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #a980cd;
+  background: #92250a;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -790,7 +789,7 @@ input[type="text"] {
   transition: 0.5s;
 }
 .social li a:hover, .social li a:focus {
-  color: #a980cd;
+  color: #92250a;
   text-decoration: none;
 }
 .social li a i {
